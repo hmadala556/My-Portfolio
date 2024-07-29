@@ -14,6 +14,14 @@ body {
     padding: 20px;
 }
 
+/* Container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
 /* Header Styling */
 header {
     text-align: center;
@@ -30,8 +38,17 @@ header p {
     color: #666;
 }
 
-nav a {
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
     margin: 0 15px;
+}
+
+nav ul li a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
