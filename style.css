@@ -24,62 +24,67 @@ body {
 
 /* Header Styling */
 header {
-    background: #333;
-    color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #77ab59 3px solid;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-header a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
+header h1 {
+    font-size: 2.5em;
+    color: #333;
 }
 
-header ul {
-    padding: 0;
-    list-style: none;
+header p {
+    font-size: 1.2em;
+    color: #666;
 }
 
-header li {
-    float: left;
-    display: inline;
-    padding: 0 20px 0 20px;
-}
-
-header #branding {
-    float: left;
-}
-
-header #branding h1 {
-    margin: 0;
-}
-
-header nav {
-    float: right;
+header img.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
     margin-top: 10px;
 }
 
-header .highlight, header .current a {
-    color: #77ab59;
-    font-weight: bold;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-header a:hover {
-    color: #77ab59;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
     font-weight: bold;
 }
 
 /* Section Styling */
 section {
-    padding: 20px 0 20px 0;
-    border-bottom: #77ab59 1px solid;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-section:last-child {
-    border: none;
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section ul li {
+    background: #eee;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 4px;
 }
 
 /* Project and Job Styling */
