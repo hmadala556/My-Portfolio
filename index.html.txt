@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hema's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hema D.</h1>
+        <p>Java Full Stack Developer</p>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Dynamic and results-driven Java Full Stack Developer with over six years of comprehensive experience in designing, developing, and maintaining enterprise-level applications. Adept at leveraging Java and Spring Framework to build robust backend solutions while utilizing modern frontend technologies such as React and Angular for responsive user interfaces. Proven expertise in implementing Microservices architecture, RESTful APIs, and DevOps practices to enhance system scalability, performance, and reliability. Experienced in Agile and Scrum methodologies, ensuring efficient project management and delivery. Strong problem-solving skills, attention to detail, and excellent communication abilities facilitate effective collaboration with cross-functional teams to achieve project goals and drive business success.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Java (Java 8), SQL, JavaScript</li>
+            <li>HTML5, CSS3, JavaScript (React, Angular)</li>
+            <li>Spring Framework (Spring Boot), Microservices Architecture, RESTful APIs</li>
+            <li>DB2, PostgreSQL</li>
+            <li>JUnit, Unit Testing Methodologies</li>
+            <li>JIRA, XLR, Ansible, Git, Docker, Kubernetes</li>
+            <li>AWS, Azure</li>
+            <li>Agile, Scrum, DevOps, CI/CD</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>E-Commerce Platform Optimization</h3>
+            <p><strong>Company:</strong> SonicWALL USA</p>
+            <p>Spearheaded the optimization of an existing e-commerce platform to enhance its performance, scalability, and reliability. Refactored the legacy system into a modern microservices-based architecture, improving response times and ensuring a seamless user experience under high traffic conditions.</p>
+            <p><strong>Frontend:</strong> Collaborated with a team of frontend developers to redesign the user interface using React and Angular, ensuring a responsive and intuitive user experience. Implemented performance enhancements by optimizing front-end code, resulting in faster load times and improved user interactions.</p>
+            <p><strong>Backend:</strong> Architected and developed a microservices-based backend using Java and Spring Boot, significantly improving the system's scalability and maintainability. Designed and developed RESTful APIs for seamless integration with third-party services, enhancing the platform's functionality and user experience. Implemented robust caching mechanisms using Redis, reducing server load and improving response times.</p>
+            <p><strong>Cloud:</strong> Utilized Docker and Kubernetes for containerization and orchestration, streamlining the deployment process and ensuring consistent environments across development, testing, and production. Implemented CI/CD pipelines using Jenkins, automating the build, test, and deployment processes to reduce downtime and accelerate release cycles.</p>
+            <p><strong>Key Achievements:</strong> Improved system throughput by 25% through performance tuning and optimization of backend services. Reduced server response time by 35% by implementing advanced load balancing and server-side caching techniques. Increased code maintainability and reduced technical debt by implementing automated unit and integration tests, achieving 90% test coverage.</p>
+        </div>
+        <div class="project">
+            <h3>Customer Relationship Management (CRM) System</h3>
+            <p><strong>Company:</strong> Capgemini USA</p>
+            <p>Developed a custom CRM system aimed at streamlining customer interactions and data management across the organization. The project focused on creating a scalable and user-friendly platform that integrated seamlessly with existing enterprise systems, ensuring efficient data flow and enhancing customer service operations.</p>
+            <p><strong>Frontend:</strong> Designed and implemented a responsive and intuitive frontend using React, providing dynamic user interfaces and improving user engagement. Collaborated closely with UI/UX designers to optimize the user experience, ensuring intuitive navigation and accessibility for CRM users. Implemented real-time data synchronization features to ensure up-to-date information across all interfaces, enhancing data consistency and operational efficiency.</p>
+            <p><strong>Backend:</strong> Developed a robust backend architecture using Java and Spring Framework, incorporating RESTful APIs for seamless integration with internal systems and databases. Designed and implemented scalable server-side solutions, ensuring high performance and reliability for handling large volumes of customer data and transactions. Integrated the CRM system with existing enterprise databases, ensuring data consistency and facilitating seamless information flow across departments.</p>
+            <p><strong>Cloud:</strong> Leveraged AWS cloud services for scalable infrastructure and storage solutions, optimizing performance and reliability of the CRM application. Containerized the application using Docker for consistent deployment across different environments, ensuring compatibility and reducing deployment times. Implemented CI/CD pipelines with Jenkins to automate build, test, and deployment processes, accelerating software releases and improving overall efficiency.</p>
+            <p><strong>Key Achievements:</strong> Increased customer data management efficiency by 30%, enhancing customer service responsiveness. Achieved 99.9% uptime for the CRM application through robust cloud infrastructure and monitoring practices. Reduced manual data entry errors by 25% through automated data synchronization and integration with existing enterprise systems.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Full Stack Software Engineer</h3>
+            <p><strong>Company:</strong> SonicWALL USA</p>
+            <p><strong>Duration:</strong> June 2021 – Present</p>
+            <p><strong>Responsibilities:</strong></p>
+            <ul>
+                <li>Collaborated with a team of frontend developers to redesign the user interface using React and Angular, ensuring a responsive and intuitive user experience.</li>
+                <li>Architected and developed a microservices-based backend using Java and Spring Boot, significantly improving the system's scalability and maintainability.</li>
+                <li>Utilized Docker and Kubernetes for containerization and orchestration, streamlining the deployment process and ensuring consistent environments across development, testing, and production.</li>
+                <li>Implemented CI/CD pipelines using Jenkins, automating the build, test, and deployment processes to reduce downtime and accelerate release cycles.</li>
+                <li>Monitored application performance using AWS CloudWatch and implemented proactive improvements to ensure high availability and minimal downtime.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Full Stack Software Engineer</h3>
+            <p><strong>Company:</strong> Capgemini USA</p>
+            <p><strong>Duration:</strong> Feb 2017 – Jun 2021</p>
+            <p><strong>Responsibilities:</strong></p>
+            <ul>
+                <li>Designed and implemented a responsive and intuitive frontend using React, providing dynamic user interfaces and improving user engagement.</li>
+                <li>Developed a robust backend architecture using Java and Spring Framework, incorporating RESTful APIs for seamless integration with internal systems and databases.</li>
+                <li>Leveraged AWS cloud services for scalable infrastructure and storage solutions, optimizing performance and reliability of the CRM application.</li>
+                <li>Containerized the application using Docker for consistent deployment across different environments, ensuring compatibility and reducing deployment times.</li>
+                <li>Implemented CI/CD pipelines with Jenkins to automate build, test, and deployment processes, accelerating software releases and improving overall efficiency.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>Bachelor's in Computer Science, XYZ University, 2016</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: hemadalajb@gmail.com</p>
+        <p>Phone: (562) 512-9153</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
